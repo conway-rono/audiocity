@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audiocity</title>
+    <!-- links to stylesheets -->
+    <link rel="stylesheet" href="./styles/vanilla.css">
+    
+    <!-- links to google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body onload="renderCards()">
+    <div class="main-container">
+        <div class="header">
+            <div class="banner">
+                <div class="logo">
+                    <div class="app-logo"></div>
+                    <p><b>audio</b>city</p>
+                </div>
+                
+                <div class="sillouette">
+                    <div class="boxes"></div>
+                    <div class="boxes" id="bb"></div>
+                    <div class="boxes" id="bc"></div>
+                    <div class="boxes" id="bd"></div>
+                    <div class="boxes"></div>
+                </div>
+                
+                <div class="profile-bar">
+                    <span class="material-icons">
+                        person_outline
+                    </span>
+                    <span class="material-icons">
+                        menu
+                    </span>
+                </div>
+            </div>
+            
+            
+            <!-- <div class="ribbon">
+                
+            </div> -->
+        </div>
+        
+        
+        
+        <div class="main">
+            <div class="side-nav">
+                <div class="tab-holder">
+                    <div class="tabs" id="home">home</div>
+                    <div class="tabs" id="tab1">trending</div>
+                    <div class="tabs" id="tab2">recents</div>
+                    <div class="tabs" id="tab3">
+                       <p>my playlists</p>
+                       <ul>
+                        <li>rock</li>
+                        <li>meditate</li>
+                        <li>Imagine Dragons</li>
+                       </ul>
+                    </div>
+                    <div class="tabs" id="tab4">explore</div>
+                </div>
+            </div>
+            
+            <div class="book">
+                <div class="headline">
+                    <p>enjoy all your favourite music!</p>
+                </div>
+
+                <div class="container">
+                    <!-- <div class="cards" id="card1">
+                        <div class="icon-profile">
+                            <div class="circle">
+                                <span class="material-icons">
+                                    play_arrow
+                                </span>
+                            </div>
+                        </div>
+                        <div class="song-title">
+                            <p>whatever it takes</p>
+                        </div>
+                        <div class="artist">
+                            Imagine Dragons
+                        </div>
+                        <div class="action-tray">
+                            <span class="material-icons">
+                                thumb_up_alt
+                            </span>
+                            <span class="material-icons">
+                                delete
+                            </span>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            
+        </div>  
+        
+        <!-- <div class="footer">
+            
+        </div> -->
+    </div>
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/data.js"></script>
+</body>
+</html>
