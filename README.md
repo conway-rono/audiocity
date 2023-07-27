@@ -6,4 +6,7 @@
 
 + Purpose is to recreate the same ui with a framework ie react
 
+## NOTE:
++ Haven't inluded responsive design!! I should probably do so...(future me!)
+
 ### hope to increase functionality in future with said framework
